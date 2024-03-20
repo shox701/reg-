@@ -11,3 +11,70 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body{
+  background-color: #093545;
+  margin-top: 0 auto;
+}
+input.login::placeholder {
+  color: white;
+  padding-left: 10px;
+}
+input.pass::placeholder {
+  color: white;
+  padding-left: 10px;
+}
+.container{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+.log{
+  width: 300px;
+  height: 374px;
+  text-align: center;
+}
+h2{
+  font-weight: 400;
+  font-size: 64px;
+  text-align: center;
+  color: #fff;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.login{
+  border-radius: 10px;
+  width: 300px;
+  height: 45px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #fff;
+  background: #224957;
+  margin-top: 42px;
+}
+.pass{
+  border-radius: 10px;
+  width: 300px;
+  height: 45px;
+  background: #224957;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #fff;
+  margin-top: 32px;
+}
+button{
+  border-radius: 10px;
+  width: 310px;
+  height: 45px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
+  background: #20df7f;   
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  text-transform: capitalize;
+  text-align: center;
+  color: #fff; 
+  margin-top: 32px;
+}
